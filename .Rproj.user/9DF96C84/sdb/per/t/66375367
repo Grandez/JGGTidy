@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# Repeat your calls to gather() and separate(), but this time\n# use the %>% operator to chain the commands together without\n# storing an intermediate result.\n#\n# If this is your first time seeing the %>% operator, check\n# out ?chain, which will bring up the relevant documentation.\n# You can also look at the Examples section at the bottom\n# of ?gather and ?separate.\n#\n# The main idea is that the result to the left of %>%\n# takes the place of the first argument of the function to\n# the right. Therefore, you OMIT THE FIRST ARGUMENT to each\n# function.\n#\nstudents2 %>%\n  gather( , , ) %>%\n  separate( , c(\"\", \"\")) %>%\n  print\n",
+    "created" : 1491225503073.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2504807324",
+    "id" : "66375367",
+    "lastKnownWriteTime" : 1491238502,
+    "last_content_update" : 1491238503271,
+    "path" : "D:/Tmp/RtmpCyeg2y/script1.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

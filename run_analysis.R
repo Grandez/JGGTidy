@@ -19,7 +19,13 @@ require(data.table, quietly=T)
 DEFAULT_FILE = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 
-tidyFile <- function(fileName = NULL) {
+#' @export
+run_analysis <- function(filename) {
+    return (JGGloadFile(filename))
+}
+
+#' @export
+JGGloadFile <- function(fileName = NULL) {
   df <- loadRawData(fileName)
   df <- makeTidyData(df)
   return (as.data.table(df))
